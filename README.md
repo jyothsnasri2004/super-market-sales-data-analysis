@@ -51,9 +51,7 @@ o	In Vizag, "Food and Beverages" was the top-selling category.
 o	In Hyderabad, "Health and Beauty" products were the most popular.
 
 ##Visualization:
-<img width="1329" height="735" alt="image" src="https://github.com/user-attachments/assets/bfc70bca-f0e5-4fb2-abe7-37057a7079c4" />
-
-
+Screenshot 2025-08-23 213958.png
 
 •	Customer Behaviour: There is a near-even split in gross income generated from Members ($7820.16) versus Normal customers ($7559.21), suggesting that both segments are almost equally valuable to the business.
 
