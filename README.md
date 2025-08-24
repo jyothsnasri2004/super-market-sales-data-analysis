@@ -1,9 +1,9 @@
 # super-market-sales-data-analysis
-##Introduction:
+#Introduction:
 
 This project presents the analysis of supermarket sales data. The primary goal is to extract actionable insights into the Product and store performance, Customer behaviour, Sales trends by exploring various aspects of the dataset, such as product line popularity, customer demographics, and payment methods, this analysis aims to identify key factors that drive sales and profitability. The findings from this project help’s in making data-driven decisions for marketing strategies, inventory management, and improving the customer experience.
 
-##Data-set:
+#Data-set:
 
 The dataset used for this analysis is sales.csv, which contains detailed transaction records from a supermarket. Each record represents a single sale and includes the following attributes:
 •	Invoice ID: A unique identifier for each transaction.
@@ -25,7 +25,7 @@ The dataset used for this analysis is sales.csv, which contains detailed transac
 •	Rating: Customer rating of the shopping experience (out of 10).
 
 
-##Exploratory Data Analysis (EDA):
+#Exploratory Data Analysis (EDA):
 
 
 The core of this project is the exploratory data analysis, where we ask and answer key questions about the sales data.
@@ -37,7 +37,7 @@ Key Questions Addressed:
 5.	Customer Satisfaction: Is there a correlation between customer rating and other variables like total spending or product line?
 
 
-##Conclusion & Recommendations:
+#Conclusion & Recommendations:
 
 
 This analysis of the supermarket sales data revealed several key insights that can inform strategic decisions.
