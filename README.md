@@ -6,23 +6,23 @@ This project presents the analysis of supermarket sales data. The primary goal i
 # Data-set:
 
 The dataset used for this analysis is sales.csv, which contains detailed transaction records from a supermarket. Each record represents a single sale and includes the following attributes:
-•	Invoice ID: A unique identifier for each transaction.
-•	Branch: The branch of the supermarket (A, B, or C).
-•	City: The location of the branch (Banglore, Vizag, Hyderabad).
-•	Customer type: Type of customer (Member or Normal).
-•	Gender: Gender of the customer (Male or Female).
-•	Product line: The category of the product purchased.
-•	Unit price: The price of a single unit of the product.
-•	Quantity: The number of units of the product purchased.
-•	Tax 5%: The 5% tax applied to the transaction.
-•	Total: The total cost of the transaction (Unit price * Quantity + Tax 5%).
-•	Date: The date of the transaction.
-•	Time: The time of the transaction.
-•	Payment: The payment method used (Ewallet, Cash, Credit Card).
-•	cogs: Cost of goods sold.
-•	gross margin percentage: The gross margin percentage.
-•	gross income: The gross income from the sale.
-•	Rating: Customer rating of the shopping experience (out of 10).
+* **Invoice ID: A unique identifier for each transaction.
+* **Branch: The branch of the supermarket (A, B, or C).
+* **City: The location of the branch (Banglore, Vizag, Hyderabad).
+* **Customer type: Type of customer (Member or Normal).
+* **Gender: Gender of the customer (Male or Female).
+* **Product line: The category of the product purchased.
+* **Unit price: The price of a single unit of the product.
+* **Quantity: The number of units of the product purchased.
+* **Tax 5%: The 5% tax applied to the transaction.
+* **Total: The total cost of the transaction (Unit price * Quantity + Tax 5%).
+* **Date: The date of the transaction.
+* **Time: The time of the transaction.
+* **Payment: The payment method used (Ewallet, Cash, Credit Card).
+* **cogs: Cost of goods sold.
+* **gross margin percentage: The gross margin percentage.
+* **gross income: The gross income from the sale.
+* **Rating: Customer rating of the shopping experience (out of 10).
 
 
 # Exploratory Data Analysis (EDA):
