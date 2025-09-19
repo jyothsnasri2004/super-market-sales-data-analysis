@@ -2,42 +2,49 @@
 
 This project presents the analysis of supermarket sales data. The primary goal is to extract actionable insights into the Product and store performance, Customer behaviour, Sales trends by exploring various aspects of the dataset, such as product line popularity, customer demographics, and payment methods, this analysis aims to identify key factors that drive sales and profitability. The findings from this project help’s in making data-driven decisions for marketing strategies, inventory management, and improving the customer experience.
 
-# Data-set:
+## Project Goal
 
-The dataset used for this analysis is sales.csv, which contains detailed transaction records from a supermarket. Each record represents a single sale and includes the following attributes:
-* Invoice ID: A unique identifier for each transaction.
-* Branch: The branch of the supermarket (A, B, or C).
-* City: The location of the branch (Banglore, Vizag, Hyderabad).
-* Customer type: Type of customer (Member or Normal).
-* Gender: Gender of the customer (Male or Female).
-* Product line: The category of the product purchased.
-* Unit price: The price of a single unit of the product.
-* Quantity: The number of units of the product purchased.
-* Tax 5%: The 5% tax applied to the transaction.
-* Total: The total cost of the transaction (Unit price * Quantity + Tax 5%).
-* Date: The date of the transaction.
-* Time: The time of the transaction.
-* Payment: The payment method used (Ewallet, Cash, Credit Card).
-* cogs: Cost of goods sold.
-* gross margin percentage: The gross margin percentage.
-* gross income: The gross income from the sale.
-* Rating: Customer rating of the shopping experience (out of 10).
+The main objective is to analyze the sales data to understand the different factors that contribute to revenue. This involves exploring the data to answer questions such as:
 
+  * Which product lines are the most successful?
+  * Which branch generates the most revenue?
+  * What are the purchasing patterns of different customer types?
+  * How do sales trends vary over time?
 
-# Exploratory Data Analysis (EDA):
+## The Dataset
 
+The dataset used for this analysis represents sales transactions from three different supermarket branches. It includes the following key columns:
 
-The core of this project is the exploratory data analysis, where we ask and answer key questions about the sales data.
-Key Questions Addressed:
-1.	Product Performance: Which product lines are the most popular and which generate the most revenue?
-2.	Sales by Location: How do sales compare across different branches and cities?
-3.	Customer Insights: What are the purchasing patterns of different customer types (Member vs. Normal), genders and cities?
-4.	Payment Methods: What is the most frequently used payment method across different cities and customer types?
-5.	Customer Satisfaction: Is there a correlation between customer rating and other variables like total spending or product line?
+  * `Branch`: The store location (A, B, or C).
+  * `Customer type`: Type of customer (Member or Normal).
+  * `Gender`: Gender of the customer.
+  * `Product line`: The general category of the product.
+  * `Unit price`: The price of a single unit of the product.
+  * `Quantity`: The number of units purchased.
+  * `Total`: The total price of the transaction.
+  * `Payment`: The payment method used (Cash, Ewallet, Credit card).
+  * `Rating`: The customer's satisfaction rating for the transaction.
 
+## Analysis and Key Findings
 
+The analysis was conducted in the `super-market-sales-analysis.ipynb` Jupyter Notebook. The key steps included data cleaning, feature engineering (extracting month and day), and visualization.
+
+**Key insights include:**
+
+  * **Top Product Line:** "Fashion accessories" and "Food and beverages" are among the top-selling product lines across all branches.
+  * **Branch Performance:** Branch 'A' consistently recorded the highest total sales revenue compared to branches 'B' and 'C'.
+  * **Customer Insights:** While both genders contribute similarly to revenue, customers who are part of the membership program tend to have slightly higher average transaction values and provide higher ratings.
+  * **Popular Payment Method:** 'Ewallet' and 'Cash' are the most frequently used payment methods by customers.
+  * **Sales Trends:** The analysis of sales by month indicated fluctuations, suggesting potential seasonality in purchasing behavior.
+
+## Technologies Used
+
+  * **Language:** Python
+  * **Libraries:** Pandas, Matplotlib, Seaborn
+  * **IDE:** Jupyter Notebook
+
+ 
 # Conclusion & Recommendations:
-
 
 This analysis of the supermarket sales data revealed several key insights that can inform strategic decisions.
 
